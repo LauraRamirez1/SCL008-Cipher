@@ -1,1 +1,17 @@
-/* Acá va tu código */
+body
+{
+    color: aliceblue;
+    text-align: center;
+}
+#Ingreso{display: none;}
+#Datos{display: none;}
+#Start{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    background: #0e008b75;
+    background-size: 1px;
+    width: 60%;
+    
+
+} 

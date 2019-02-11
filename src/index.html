@@ -2,13 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>ENCRYPTION</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+  <body background= "https://www.esan.edu.pe/apuntes-empresariales/2018/08/08/1500x844_sgsi.jpg">
+   
+   <div id="Start">
+            <h2>ENCRYPTION</h2>
+            <p>Esta aplicación tiene como fin ayudar a mejorar su seguridad encriptando sus datos personales (Cifrado Cesar). Usted debe ingresar sus datos (Direcciones, teléfonos, claves, mensajes, etc.) y el número de posiciones que desea desplazarse en el alfabeto.  </p>
+            <p> <strong> ¡DUERMA MAS TRANQUILO, USE ENCRYPTION!</strong></p>
+            <p>Si desea continuar, haga click aqui.</p>
+            <button onclick="startc2()">Aceptar</button>
+   </div> 
+    
+   <div id="Ingreso">
+      
+          <h2>Ingrese su nombre</h2>
+          <input type="text" name="ciphertext" id="name">
+          <h2>Ingrese su correo electronico</h2>
+          <input type="text" name="ciphertext" id="email">
+          <button onclick="startc3()">Aceptar</button>
+ </div> 
+ 
+ <div id="Datos">
+          <h2>Ingrese el texto que desea codificar ó decodificar</h2>
+          <input type="text" name="ciphertext" id="entex1">
+          <h2>Ingrese el numero espacios</h2>
+          <input type="number" min="1" name="jumpnumber" id="offset">
+          
+          <button id="Code">Codificar</button>
+          
+          <button id="Decode">Decodificar</button>
+          <p id="error"></p>
+          <p id="result1"></p>
+ </div> 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
