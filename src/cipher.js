@@ -3,11 +3,11 @@ window.cipher = {
     let ascii1 =0;
     let ascii2 =0;
     let result ="";
-    let entext= entex1.toUpperCase();
+  
  
-    for (let i = 0; i < entext.length; i++) 
+    for (let i = 0; i < entex1.length; i++) 
     {
-        ascii1= entext.charCodeAt(i);
+        ascii1= entex1.charCodeAt(i);
         
         if(ascii1 >=32 && ascii1 <=  47 || ascii1>= 58 && ascii1<= 64 ||ascii1>=91 && ascii1 <=96 ||ascii1>=123 && ascii1 <=163 ||ascii1>=165 ) 
         {
@@ -34,11 +34,10 @@ window.cipher = {
     let ascii1 =0;
     let ascii2 =0;
     let result ="";
-    let entext= entex1.toUpperCase();
- 
-    for (let i = 0; i < entext.length; i++) 
+     
+    for (let i = 0; i < entex1.length; i++) 
     {
-        ascii1= entext.charCodeAt(i);
+        ascii1= entex1.charCodeAt(i);
         
         if(ascii1 >=32 && ascii1 <=  47 || ascii1>= 58 && ascii1<= 64 ||ascii1>=91 && ascii1 <=96 ||ascii1>=123 && ascii1 <=163 ||ascii1>=165 ) 
         {
