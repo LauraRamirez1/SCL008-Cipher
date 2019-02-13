@@ -19,6 +19,9 @@ En general el tema de seguridad informática debe ser manejado con cuidado y ate
 
 Ingrese al siguiente link:
 
+[Encryption](https://lauraramirez1.github.io/SCL008-Cipher/src/index.html)
+[Trello](https://trello.com/invite/b/j9C4nBus/babc3df4e5a63919f1e8175ed8db5de4/cipher)
+
 Alli encontrara la pantalla principal con una breve introduccion a Encryption. Al dar click en Aceptar
 ingresara a la segunda pantalla.
 

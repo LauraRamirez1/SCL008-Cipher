@@ -9,7 +9,8 @@
             document.getElementById("error").innerHTML =  "Debe ingresar un valor positivo de movimientos";
         } else {
             
-            document.getElementById("result1").innerHTML= cipher.encode(offset,entex1);   
+            document.getElementById("result1").innerHTML= cipher.encode(offset,entex1);  
+            document.getElementById("error").innerHTML =  "";  
         }
     })
     
@@ -23,13 +24,15 @@ const decodebutton = document.getElementById("Decode");
         
             document.getElementById("error").innerHTML =  "Debe ingresar un valor positivo de movimientos";
         } else { 
-             document.getElementById("result1").innerHTML= cipher.decode(offset,entex1);  
+             document.getElementById("result1").innerHTML= cipher.decode(offset,entex1);
+             document.getElementById("error").innerHTML =  ""; 
             }  
         })
 
 const limpiarbutton = document.getElementById("Limpiar");
     limpiarbutton.addEventListener('click', () => {
         document.getElementById("result1").innerHTML= "";   
+        document.getElementById("error").innerHTML =  ""; 
         })
 
 const start1button = document.getElementById("Start1");
