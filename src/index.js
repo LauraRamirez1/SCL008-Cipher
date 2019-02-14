@@ -42,3 +42,5 @@ start1button.addEventListener('click', () => {
     document.getElementById("Start").style.display = "none";
     document.getElementById("Datos").style.display = "block";
 })
+
+// Fin 
