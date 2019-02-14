@@ -32,7 +32,9 @@ const decodebutton = document.getElementById("Decode");
 const limpiarbutton = document.getElementById("Limpiar");
     limpiarbutton.addEventListener('click', () => {
         document.getElementById("result1").innerHTML= "";   
-        document.getElementById("error").innerHTML =  ""; 
+        document.getElementById("error").innerHTML = ""; 
+        document.getElementById("entex1").value = ""; 
+        document.getElementById("offset").value = ""; 
         })
 
 const start1button = document.getElementById("Start1");
