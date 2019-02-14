@@ -17,6 +17,10 @@ window.cipher = {
         {
             ascii2= (ascii1- 48 + parseInt(offset))%10 + 48
         }
+        else if(ascii1 >=97 && ascii1 <= 122)
+        {
+          ascii2= (ascii1- 97 + parseInt(offset))%26 + 97
+        }
         else
         {
              ascii2= (ascii1- 65 + parseInt(offset))%26 + 65
@@ -46,6 +50,10 @@ window.cipher = {
         else if(ascii1 >=48 && ascii1 <=  57)
         {
             ascii2= (ascii1- 57 - parseInt(offset))%10 + 57
+        }
+        else if(ascii1 >=97 && ascii1 <= 122)
+        {
+          ascii2= (ascii1- 122 - parseInt(offset))%26 + 122
         }
         else
         {

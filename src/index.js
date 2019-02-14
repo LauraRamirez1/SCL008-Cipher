@@ -1,7 +1,7 @@
  const codebutton = document.getElementById("Code");
     codebutton.addEventListener('click', () => {
     
-        let entex1 = (document.getElementById("entex1").value).toUpperCase();
+        let entex1 = document.getElementById("entex1").value;
         let offset = document.getElementById("offset").value;
       
         if(parseInt(offset)<1){ 
@@ -17,7 +17,7 @@
 const decodebutton = document.getElementById("Decode");
     decodebutton.addEventListener('click', () => {
     
-        let entex1 = (document.getElementById("entex1").value).toUpperCase();
+        let entex1 = document.getElementById("entex1").value;
         let offset = document.getElementById("offset").value;
         
         if(parseInt(offset)<1){ 
