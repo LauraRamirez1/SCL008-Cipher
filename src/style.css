@@ -1,37 +1,97 @@
 body
 {
     color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+#Start{
+    margin-left: 26%;
+    margin-top: 15%;
+    font-size: 20px;
+    color: white;
+    background: #0e008b75;
+    background-size: 1px;
+    width: 60%; 
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+} 
+
+#Datos{
     text-align: center;
+    display: none;
+    font-size: 20px;
+    color: white;
+    background-size: 1px;
+    margin:auto;
 }
 
-#Datos{display: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-    background: #0e008b75;
-    background-size: 1px;
-    width: 60%}
-#Start{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-    background: #0e008b75;
-    background-size: 1px;
-    width: 60%;
-} 
 #entex1
 {
+    
+    text-align: center;
+    margin:auto;
     width: 400px;
     height: 200px;
-
 }
+
+h2{
+    margin: none;
+    margin-bottom: 10px;
+    text-align: center
+}
+
 #result1{
+    text-align: center;
+    margin:auto;
     width: 400px;
     height: 200px;
-    background: white;
-    background-size: 1px;
-    margin-left:200px;
+    background-color: white;
     color: black;
-    
-    
+    padding-top: 100px;
+}
+
+
+button{
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    background-color: #498AB9;
+    transition:0.3s;
+}
+
+button:hover{
+    background-color: #0513C8;
+}
+
+#Start1{
+    text-align: center;
+    margin-left: 200px;
+    width: 150px;
+    height: 50px;
+}
+
+#Cipherbotones {
+    margin-top: 20px;
+}
+
+#Code{
+    width: 100px;
+    height: 30px;
+}
+#Decode{
+    width: 100px;
+    height: 30px;
+}
+
+#Limpiar{
+    width: 100px;
+    height: 30px;
+}
+
+#offset{
+    margin-top: 5px;
 }
